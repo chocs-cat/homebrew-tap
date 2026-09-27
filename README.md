@@ -22,11 +22,9 @@ is the Pony package manager; both install a `corral` binary, so they conflict.
 herdr is not a dependency, so installing corral never upgrades a running herdr.
 Install it with `brew install herdr`.
 
-`Formula/corral-herdr.rb` is updated by hand after each PyPI release: bump
-`url`/`sha256` to the new sdist, then refresh the dependency resources with
-`brew update-python-resources corral-herdr`. That command ignores packages
-uploaded in the last 24 hours, so wait a day after the release, or copy the
-versions from corral's `uv.lock`.
+`Formula/corral-herdr.rb` is written by corral's release workflow after each
+PyPI release, with its dependencies at the versions in that release's
+`uv.lock`; don't edit it by hand.
 
 It moved here from `johnfoland/tap`, which migrates existing installs on
 `brew update`.
