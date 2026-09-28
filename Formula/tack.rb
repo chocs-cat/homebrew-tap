@@ -3,8 +3,8 @@ class Tack < Formula
 
   desc "Deploy agent skills to Claude Code and Codex from one manifest"
   homepage "https://github.com/chocs-cat/tack"
-  url "https://files.pythonhosted.org/packages/a9/3e/f32d26e431343b4045e65e396b3c2bcd7bd15e0153a3c9fc4756cfca614e/tack_agents-0.2.0.tar.gz"
-  sha256 "1c70616812c806787c08bda039f63225c3561b55ef46dda0e8e8397f9b600278"
+  url "https://files.pythonhosted.org/packages/46/b1/253e905f01ea962a63d08c3cc89e66fe75fd6f8f9a0a9103e3359bf70390/tack_agents-0.3.0.tar.gz"
+  sha256 "ff2fa552fd7936907d107f2e8b0cb5fa8cf2cd678a3e54ea5bebf534691e22aa"
   license "MIT"
 
   depends_on "python@3.14"
