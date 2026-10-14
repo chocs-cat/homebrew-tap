@@ -82,6 +82,6 @@ class Cheztui < Formula
 
   test do
     assert_match version.to_s, shell_output("#{bin}/cheztui --version")
-    assert_match "chezmoi", shell_output("#{bin}/cheztui")
+    assert_match "chezmoi", shell_output(bin/"cheztui")
   end
 end
