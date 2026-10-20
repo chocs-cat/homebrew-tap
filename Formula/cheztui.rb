@@ -3,8 +3,8 @@ class Cheztui < Formula
 
   desc "Clean, fast TUI for chezmoi"
   homepage "https://github.com/chocs-cat/cheztui"
-  url "https://files.pythonhosted.org/packages/b3/de/a6845f669c4b47c54a620b035a9a837d1ff3a9f726a161adb916d10d5892/cheztui-0.1.0.tar.gz"
-  sha256 "9a79da22eb25f90d2bb6d1e3b7db03a725491661f303a33732c30480d16e4098"
+  url "https://files.pythonhosted.org/packages/a7/fa/a7e0770d9ad055a0f2b4c9e8598a5e82f7acfa1a445829c034b62bd0ef50/cheztui-0.1.1.tar.gz"
+  sha256 "89dccd4940a0dffc8408adc2bf06c652aab7b52fdacf0a5c3e2593c00ab1ea14"
   license "MIT"
 
   depends_on "rust" => :build
