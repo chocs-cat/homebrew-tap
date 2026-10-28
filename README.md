@@ -5,15 +5,20 @@ Homebrew formulae from chocs-cat.
 ```sh
 brew install chocs-cat/tap/tack
 brew install chocs-cat/tap/corral-herdr
+brew install chocs-cat/tap/jumble
 ```
 
 | Formula | What it is |
 |---|---|
 | [`tack`](https://github.com/chocs-cat/tack) | Deploy agent skills to Claude Code and Codex from one manifest, and audit projects so either agent sees the same instructions, skills and hooks. |
 | [`corral-herdr`](https://github.com/chocs-cat/corral) | Round up your projects into [herdr](https://herdr.dev) workspaces, from a TUI or a CLI. |
+| [`jumble`](https://github.com/chocs-cat/jumble) | Random string generator with a command-line interface and a terminal UI. |
 
 `Formula/tack.rb` is written by tack's release workflow after each PyPI
 release; don't edit it by hand.
+
+`Formula/jumble.rb` is written by jumble's release workflow after each PyPI
+release of `jumble-cli` (`jumble` is taken on PyPI); don't edit it by hand.
 
 ## corral
 
