@@ -3,8 +3,8 @@ class Jumble < Formula
 
   desc "Random string generator with a command-line interface and a terminal UI"
   homepage "https://github.com/chocs-cat/jumble"
-  url "https://files.pythonhosted.org/packages/3d/e3/3fd5b77cf3ce2f9c5e5aa4c634941eaea3d0873666ef5a17587a027c98da/jumble_cli-0.1.1.tar.gz"
-  sha256 "19679b382a6c7642e162988975dd969a6ffac977f846cbdb8516b371a77bbe6c"
+  url "https://files.pythonhosted.org/packages/a6/69/039f5b034fec2d6a4327efad6f25976d026e79477844ccbd76e0d6441be0/jumble_cli-0.1.2.tar.gz"
+  sha256 "17bbc1523945942477a251c1a8d5f2405f28c286fdf6e61288cb7bca647e107a"
   license "MIT"
 
   depends_on "python@3.14"
